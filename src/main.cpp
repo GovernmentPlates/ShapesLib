@@ -1,13 +1,11 @@
-/*! \mainpage Lab 2 - Shapes
+/*! \mainpage ShapesLib
 *
-* This program gives you a basic SFML window in which to draw your shapes.
+* A basic 2D shapes library for SFML
 *
-* The classes and files you use are up to you.  
+* Compiled with C++17
 *
-* This software froms the basis of your submission for lab book 1
-*
-*
-* Author: P2533140 (Dominic H.)
+* Author: Dominic H. (github.com/GovernmentPlates)
+* License: GNU General Public License v3.0
 */
 
 /*! \file main.cpp
@@ -29,7 +27,7 @@
 
 int main() //!< Entry point for the application
 {
-	sf::RenderWindow window(sf::VideoMode(1024, 800), "Lab Book 1 - Shapes (P2533140)");
+	sf::RenderWindow window(sf::VideoMode(1024, 800), "ShapesLib Demo");
 	window.setFramerateLimit(60);
 
 	//Example shapes
